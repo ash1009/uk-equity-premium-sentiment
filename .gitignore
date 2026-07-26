@@ -1,0 +1,10 @@
+data/
+*.csv
+!output/*.csv
+!src/lm_words.json
+finbert_parts/
+lm_parts/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.docx
