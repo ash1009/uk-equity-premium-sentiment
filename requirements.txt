@@ -1,0 +1,9 @@
+# Core pipeline. Works on pandas 2.1 through 3.0; no version pin needed.
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# FinBERT scoring only. Skip these if you are running the dictionary version.
+transformers>=4.30
+torch>=2.0
